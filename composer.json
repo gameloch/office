@@ -1,5 +1,5 @@
 {
-    "name": "Gameloch/Office",
+    "name": "gameloch/office",
     "description": "Pacote Laravel para integração com o office através de um aplicativo registrado do azure ",
     "type": "library",
     "license": "GPL-3.0-only",
