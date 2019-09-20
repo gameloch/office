@@ -21,7 +21,6 @@
     "minimum-stability": "beta",
     "require": {
        "php": "^7.2",
-       "microsoft/microsoft-graph": "~1.10.0"
     },
     "config": {
         "sort-packages": true
