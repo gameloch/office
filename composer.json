@@ -1,0 +1,34 @@
+{
+    "name": "Gameloch/Office",
+    "description": "Pacote Laravel para integração com o office através de um aplicativo registrado do azure ",
+    "type": "library",
+    "license": "GPL-3.0-only",
+    "homepage": "https://github.com/gameloch/office",
+    "version": "1.0",
+    "keywords": [
+      "office",
+      "laravel",
+      "excel",
+      "word",
+      "skype"
+    ],
+    "authors": [
+        {
+            "name": "Gameloch Group",
+            "email": "drcg@gpgic.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+       "php": "^7.2",
+       "microsoft/microsoft-graph": "~1.10.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+            "psr-4": {
+                "Gameloch\\Office\\": "src/"
+            }
+     }
+}
